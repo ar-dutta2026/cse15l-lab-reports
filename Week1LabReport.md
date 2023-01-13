@@ -19,7 +19,7 @@ To **remotely connect**, first you have to go to the [UCSD Link](https://sdacs.u
 
 <img width="578" alt="Screen Shot 2023-01-12 at 10 14 31 PM" src="https://user-images.githubusercontent.com/112745073/212250439-b6f7caf1-2ae5-4a61-95ff-6748d15065ba.png">
 
-I then used the cat/home/linux/ieng6/cs15lwi23/public/hello.txt, to be able to print and acccess the contents of what is in the file of hello.txt
+I then used the command `cat/home/linux/ieng6/cs15lwi23/public/hello.txt`, to be able to print and acccess the contents of what is in the file of hello.txt
 
 <img width="581" alt="Screen Shot 2023-01-12 at 10 16 43 PM" src="https://user-images.githubusercontent.com/112745073/212250760-6301ac1a-df2b-4d41-ae4d-5ba03a0bc010.png">
 
