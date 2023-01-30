@@ -63,8 +63,8 @@ Result of Running the test
 
 
 ### Input that does not induce failure ### 
-
-<pre><code> public void mergeTest(){
+````
+public void mergeTest(){
         List<String> tester = new ArrayList<>();
         tester.add("a");
         tester.add("d");
@@ -81,7 +81,8 @@ Result of Running the test
         example.add("e");
         example.add("f");
         assertEquals(example,ListExamples.merge(tester,t2));
-    } </code></pre>
+    }
+    ````
 
 Result of running the J-Unit Test
 
