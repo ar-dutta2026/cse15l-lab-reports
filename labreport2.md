@@ -36,8 +36,7 @@ The URI changes again here as this is a new request with a different message to 
 ---- 
 ### Failure Inducing Input for the Buggy Program ###
 
-<pre><code>
-public void mergeTest(){
+<pre><code>public void mergeTest(){
         List<String> tester = new ArrayList<>();
         tester.add("a");
         tester.add("d");
@@ -55,9 +54,9 @@ public void mergeTest(){
         example.add("e");
         example.add("f");
         example.add("z");
-
         assertEquals(example,ListExamples.merge(tester,t2));
     } </code></pre>
+
 
 Result of Running the test
 <img width="1728" alt="Screen Shot 2023-01-29 at 11 36 06 PM" src="https://user-images.githubusercontent.com/112745073/215415390-4c7d365d-e11e-4ed8-83da-9c9c44d8e497.png">
@@ -65,8 +64,7 @@ Result of Running the test
 
 ### Input that does not induce failure ### 
 
-<pre><code> 
-public void mergeTest(){
+<pre><code> public void mergeTest(){
         List<String> tester = new ArrayList<>();
         tester.add("a");
         tester.add("d");
@@ -83,8 +81,7 @@ public void mergeTest(){
         example.add("e");
         example.add("f");
         assertEquals(example,ListExamples.merge(tester,t2));
-    }
-   </code></pre>
+    } </code></pre>
 
 Result of running the J-Unit Test
 
