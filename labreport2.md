@@ -57,8 +57,7 @@ public void mergeTest(){
         example.add("z");
 
         assertEquals(example,ListExamples.merge(tester,t2));
-    }
-</code></pre>
+    } </code></pre>
 
 Result of Running the test
 <img width="1728" alt="Screen Shot 2023-01-29 at 11 36 06 PM" src="https://user-images.githubusercontent.com/112745073/215415390-4c7d365d-e11e-4ed8-83da-9c9c44d8e497.png">
@@ -85,8 +84,7 @@ public void mergeTest(){
         example.add("f");
 
         assertEquals(example,ListExamples.merge(tester,t2));
-    }
-</code></pre>
+    }</code></pre>
 
 Result of running the J-Unit Test
 
@@ -116,11 +114,11 @@ The Bug that caused the error
       index1 += 1; //The bug in the code
     }
     return result;
-  }
-</code></pre>
+  }</code></pre>
 
 
 The bug that is now fixed in the following code
+
 <pre><code> 
   static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
@@ -144,8 +142,7 @@ The bug that is now fixed in the following code
       index2 += 1; //The bug in the code
     }
     return result;
-  }
-</code></pre>
+  }</code></pre>
 
 
 This fixes the issue as before when it was index1 +=1, it resulted in an infinite loop as index2 would always be less than list2.size(), and it would continually add 1 and nothing would stop it. Turning it to index2 would allow the while statement to run the way it was meant to be, and be able to effectively combine lists of different length. 
