@@ -89,8 +89,8 @@ Result of running the J-Unit Test
 
 <img width="1728" alt="Screen Shot 2023-01-29 at 11 37 09 PM" src="https://user-images.githubusercontent.com/112745073/215415624-4e31361a-1746-463b-8a2d-4b6f215a5727.png">
 
-The Bug that caused the error
-<pre><code> 
+### The Bug that caused the error ###
+````
   static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
     int index1 = 0, index2 = 0;
@@ -113,12 +113,13 @@ The Bug that caused the error
       index1 += 1; //The bug in the code
     }
     return result;
-  }</code></pre>
+  }
+````
 
 
-The bug that is now fixed in the following code
+### The bug is fixed in the following code ##
 
-<pre><code> 
+````
   static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
     int index1 = 0, index2 = 0;
@@ -141,8 +142,8 @@ The bug that is now fixed in the following code
       index2 += 1; //The bug in the code
     }
     return result;
-  }</code></pre>
-
+  }
+````
 
 This fixes the issue as before when it was index1 +=1, it resulted in an infinite loop as index2 would always be less than list2.size(), and it would continually add 1 and nothing would stop it. Turning it to index2 would allow the while statement to run the way it was meant to be, and be able to effectively combine lists of different length. 
 
