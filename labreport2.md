@@ -35,8 +35,8 @@ The URI changes again here as this is a new request with a different message to 
 ## Part 2: J-Unit Bug Testing ## 
 ---- 
 ### Failure Inducing Input for the Buggy Program ###
-
-<pre><code>public void mergeTest(){
+````
+public void mergeTest(){
         List<String> tester = new ArrayList<>();
         tester.add("a");
         tester.add("d");
@@ -55,7 +55,8 @@ The URI changes again here as this is a new request with a different message to 
         example.add("f");
         example.add("z");
         assertEquals(example,ListExamples.merge(tester,t2));
-    } </code></pre>
+    }
+```` 
 
 
 Result of Running the test
@@ -82,7 +83,7 @@ public void mergeTest(){
         example.add("f");
         assertEquals(example,ListExamples.merge(tester,t2));
     }
-    ````
+ ````
 
 Result of running the J-Unit Test
 
