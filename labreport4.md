@@ -35,7 +35,7 @@ I first had to `cd` into the lab7 file, so I did that. I pressed up 11 times to 
 
 <img width="1172" alt="Screen Shot 2023-02-26 at 4 44 37 AM" src="https://user-images.githubusercontent.com/112745073/221411220-eba03a1f-d9b9-4440-a834-9d5bc2b58e5e.png">
 
-Keys pressed: `<up><up><up><up><up><up><up><enter>`, `<delete> 2`,  `<ctrl><shift>+- 43,12`, `<ctrl>x` , `y<enter>`. 
+Keys pressed: `<up><up><up><up><up><up><up><enter>`, `<delete> 2`,  `<ctrl><shift>+- 43,12`, `<ctrl>x` , `y<enter>`
 
 I Pressed the up button 6 times to access the `nano ListExamples.java` command so I could access the user-friendly editable interface. Afterwards, I used the next command so I could go to the specific line to edit the error. Then I edited the error. Then I saved changes and exited. 
 
