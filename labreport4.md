@@ -25,7 +25,7 @@ I pressed up 13 times to get to the command so that I could clone the repository
 
 Keys pressed: `cd l<tab><enter>`,`<up><up><up><up><up><up><up><up><up><up><up><enter>`, `<up><up><up><up><up><up><up><up><up><up><up><enter>`
 
-I first had to `cd` into the lab7 file, so I did that. I pressed up 11 times to be able to get to the ` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` then enter to compile the files. Then I pressed the up arrow 12 times to get to the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore`, then pressed enter for it to run the file. 
+I first had to `cd` into the lab7 file, so I did that. I pressed up 11 times to be able to get to the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`  then enter to compile the files. Then I pressed the up arrow 12 times to get to the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore`, then pressed enter for it to run the file. 
 
 ## Step 7 ##
 
@@ -46,7 +46,7 @@ I Pressed the up button 6 times to access the `nano ListExamples.java` command s
 
 Keys pressed: `<up><up><up>><enter>` , `<up><up><up><up>><enter>`
 
-I pressed up 2 times to be able to get to the ` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` then enter to compile the files. Then I pressed the up arrow 4 times to get to the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore`, then pressed enter for it to run the file. 
+I pressed up 2 times to be able to get to the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`   then enter to compile the files. Then I pressed the up arrow 4 times to get to the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore`, then pressed enter for it to run the file. 
 
 
 ## Step 9 ##
